@@ -69,7 +69,7 @@ export default function SideRight(props) {
           }>
           <TagGroups tags={sortedTags} currentTag={currentTag} />
           <hr className='mx-1 flex border-dashed relative my-4' />
-          <AnalyticsCard {...props} />
+          {/* <AnalyticsCard {...props} /> */}
         </Card>
       </div>
     </div>
