@@ -45,9 +45,9 @@ export default function SideRight(props) {
         )}
 
         {/* 联系交流群 */}
-        <div className='wow fadeInUp'>
+        {/* <div className='wow fadeInUp'>
           <TouchMeCard />
-        </div>
+        </div> */}
 
         {/* 最新文章列表 */}
         <div
