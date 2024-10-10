@@ -68,7 +68,7 @@ const BlogPostCard = ({ index, post, showSummary, siteInfo }) => {
                 <Link
                   passHref
                   href={`/category/${post.category}`}
-                  className='cursor-pointer text-xs font-normal menu-link py-2'>
+                  className='cursor-pointer text-xs font-medium	 menu-link py-2'>
                   {post.category}
                 </Link>
               </div>
@@ -98,7 +98,7 @@ const BlogPostCard = ({ index, post, showSummary, siteInfo }) => {
             </main>
           )}
 
-          <div className='md:flex-nowrap flex-wrap md:justify-start inline-block'>
+          <div className='py-2 md:flex-nowrap flex-wrap md:justify-start inline-block'>
             <div>
               {' '}
               {post.tagItems?.map(tag => (
