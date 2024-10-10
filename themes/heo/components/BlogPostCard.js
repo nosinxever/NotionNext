@@ -93,12 +93,12 @@ const BlogPostCard = ({ index, post, showSummary, siteInfo }) => {
 
           {/* 摘要 */}
           {(!showPreview || showSummary) && (
-            <main className='py-2 line-clamp-2 replace text-gray-700  dark:text-gray-300 text-sm font-normal leading-tight'>
+            <main className='line-clamp-2 replace my-3 2xl:my-1 text-gray-700  dark:text-gray-300 text-sm font-light leading-tight'>
               {post.summary}
             </main>
           )}
 
-          <div className='py-2 md:flex-nowrap flex-wrap md:justify-start inline-block'>
+          <div className='md:flex-nowrap flex-wrap md:justify-start inline-block'>
             <div>
               {' '}
               {post.tagItems?.map(tag => (
