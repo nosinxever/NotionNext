@@ -62,7 +62,7 @@ const BlogPostCard = ({ index, post, showSummary, siteInfo }) => {
           }>
           <header>
             {/* 分类 */}
-            {post?.category && (
+            {/* {post?.category && (
               <div
                 className={`flex mb-1 items-center ${showPreview ? 'justify-center' : 'justify-start'} hidden md:block flex-wrap dark:text-gray-300 text-gray-600 hover:text-indigo-700 dark:hover:text-yellow-500`}>
                 <Link
@@ -72,7 +72,7 @@ const BlogPostCard = ({ index, post, showSummary, siteInfo }) => {
                   {post.category}
                 </Link>
               </div>
-            )}
+            )} */}
 
             {/* 标题和图标 */}
             <Link
