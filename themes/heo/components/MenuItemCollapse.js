@@ -34,7 +34,7 @@ export const MenuItemCollapse = ({ link }) => {
           <Link
             href={link?.href}
             target={link?.target}
-            className='font-extralight  flex justify-between pl-2 pr-4 dark:text-gray-200 no-underline tracking-widest'>
+            className='font-light  flex justify-between pl-2 pr-4 dark:text-gray-200 no-underline tracking-widest'>
             <span className=' transition-all items-center duration-200'>
               {link?.icon && <i className={link.icon + ' mr-4'} />}
               {link?.name}
